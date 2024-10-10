@@ -69,17 +69,8 @@ This implementation follows these steps to provide clients with network configur
 - **Subnet Mask and DNS Assignment**
 - **UDP Socket Communication** for DHCP messages
 
-## 🤝 Contributing
-Contributions are welcome! If you'd like to improve this project, feel free to submit a **pull request**. Please ensure your code follows the repository's coding standards.
-
-## 📜 License
-This project is licensed under the MIT License. Feel free to use and modify it as you like!
-
 ## 🧑‍💻 Author
 - **MauricioCa07** - Original creator of this project.
-
-## 📬 Contact
-For any questions or issues, please create an **issue** in the repository or reach out directly via GitHub.
 
 ---
 
