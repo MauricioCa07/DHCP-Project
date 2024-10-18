@@ -71,6 +71,8 @@ This implementation follows these steps to provide clients with network configur
 
 ## 🧑‍💻 Author
 - **MauricioCa07** - Original creator of this project.
+- **Alkran93** - coder 
+- **user20037** -coder
 
 ---
 
