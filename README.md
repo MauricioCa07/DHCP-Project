@@ -1,8 +1,8 @@
-# 📡 DHCP-Project
+# DHCP-Project
 
 Welcome to the **DHCP-Project**! This repository contains the implementation of a **Dynamic Host Configuration Protocol (DHCP)** for a NAT network. The project includes both a **client** and **server** written in **C**, providing functionalities to assign IP addresses dynamically to clients through UDP sockets.
 
-## 🌟 Project Overview
+## Project Overview
 
 The **DHCP-Project** aims to simulate the behavior of the DHCP protocol in a controlled NAT network environment. The primary goal of the project is to provide:
 - **IP Address Assignment**: Allocate IP addresses dynamically to clients.
@@ -13,7 +13,7 @@ This implementation is designed to run within a NAT environment, typically using
 
 The project demonstrates the working of DHCP in distributing network configuration parameters using **UDP sockets** for communication. Each time a client joins the network, it requests network configuration, and the server dynamically allocates an IP address that has not been previously assigned.
 
-## ⚙️ Installation
+## Installation
 
 Follow the steps below to get started with the DHCP-Project:
 
@@ -52,7 +52,7 @@ sudo ./dhcp_server
 
 > **Note:** The client and server must run on two separate machines within the same NAT network. VirtualBox virtual machines are recommended for this purpose.
 
-## 🚀 Usage
+## Usage
 
 Each time the client is executed, it connects to the DHCP server to request an IP address and obtain other network configuration parameters such as **subnet mask** and **DNS server information**. The server keeps track of allocated IP addresses to ensure each connected client receives a unique IP.
 
@@ -64,18 +64,11 @@ The DHCP process typically follows these steps:
 
 This implementation follows these steps to provide clients with network configuration dynamically.
 
-## 🛠️ Features
+## Features
 - **Dynamic IP Address Assignment**
 - **Subnet Mask and DNS Assignment**
 - **UDP Socket Communication** for DHCP messages
 
-## 🧑‍💻 Author
+## Author
 - **MauricioCa07** - Original creator of this project.
 
----
-
-Thank you for checking out **DHCP-Project**! If this project helped you, please give it a ⭐️ on GitHub!
-
----
-
-**Happy Networking!** 😊
